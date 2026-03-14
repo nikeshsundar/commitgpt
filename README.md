@@ -4,7 +4,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/commitgpt)
 ![Python](https://img.shields.io/pypi/pyversions/commitgpt)
-![License](https://img.shields.io/github/license/yourusername/commitgpt)
+![License](https://img.shields.io/github/license/nikeshsundar/commitgpt)
 
 ---
 
@@ -176,9 +176,9 @@ cmt --copy      # copies output to clipboard automatically
 
 You don't need to configure anything. Just put your key in `.env` and the tool automatically detects it in this order:
 ```
-GITHUB_TOKEN     → GitHub Models (gpt-4o-mini)
-GEMINI_API_KEY   → Gemini 2.0 Flash
-OPENAI_API_KEY   → OpenAI gpt-4o-mini
+GITHUB_TOKEN      → GitHub Models (gpt-4o-mini)
+GEMINI_API_KEY    → Gemini 2.0 Flash
+OPENAI_API_KEY    → OpenAI gpt-4o-mini
 ANTHROPIC_API_KEY → Claude Haiku
 ```
 
@@ -242,5 +242,4 @@ MIT — free to use, modify and distribute.
 
 ---
 
-Made by a developer who was tired of writing "fix" as a commit message.
-
+Made by [nikeshsundar](https://github.com/nikeshsundar) — tired of writing "fix" as a commit message.
