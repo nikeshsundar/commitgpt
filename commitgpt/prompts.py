@@ -1,0 +1,5 @@
+COMMIT_PROMPT = """You are an expert developer. Given this git diff, write a single conventional \ncommit message. Format: type(scope): description. Types: feat/fix/docs/style/\nrefactor/test/chore. Keep under 72 chars. Then add 2-4 bullet points explaining \nkey changes. Output ONLY the commit message and bullets, nothing else."""
+
+STANDUP_PROMPT = """You are a developer writing a daily standup. Given these git commits from the \nlast 24 hours, generate a standup update. Format exactly:\nYesterday: [what was done, past tense, concise]\nToday: [logical next steps based on the work]\nBlockers: [say None if nothing obvious]\nBe specific about what changed. Output ONLY the standup, nothing else."""
+
+PR_PROMPT = """You are an expert developer. Given this git diff between branches, write a \ncomplete QR description. Format exactly:\n## What changed\n[2-3 sentences]\n## Why\n[reason for the change]\n## Testing\n[how to test this]\n## Checklist\n- [ ] Tests added\n- [ ] Docs updated\nOutput ONLY the QR description markdown, nothing else."""
